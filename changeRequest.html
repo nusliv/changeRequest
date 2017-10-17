@@ -4,16 +4,19 @@
 	<style>
 		body{
 			margin: 2% ;
-			border:2px solid black ;
+			/* border:2px solid black ; */
 			
 		}
 		table#infoTable {
 			border: 1px solid black;
 		}
 		.chk{
-			/* float:left; */
+			float:left;
 			/* clear:none; */
 		}	
+		div.section{
+			border: 1px solid black;
+		}
 	</style>
 </head>
 <body>
@@ -31,11 +34,13 @@
 		</table>
 	</div>
 	
-<h3> Change Category (check all that apply)</h3>
-<div class="chk"> <input type="checkbox" name="Schd" value="Schedule">Schedule</div>
-<div class="chk"> <input type="checkbox" name="cost" value="Cost">Cost</div>
-<div class="chk"> <input type="checkbox" name="scope" value="Scope">Scope</div>
-<div class="chk"> <input type="checkbox" name="reqdel" value="reqdel">Requirements/Deliverables</div>
-<div class="chk"> <input type="checkbox" name="testing" value="tstqual">Testing/Quality</div>
-<div class="chk"> <input type="checkbox" name="resources" value="resources">Resources</div>
+	<h3> Change Category (check all that apply)</h3>
+	<div class="section">
+		<div class="chk"> <input type="checkbox" name="Schd" value="Schedule">Schedule</div>
+		<div class="chk"> <input type="checkbox" name="cost" value="Cost">Cost</div>
+		<div class="chk"> <input type="checkbox" name="scope" value="Scope">Scope</div>
+		<div class="chk"> <input type="checkbox" name="reqdel" value="reqdel">Requirements/Deliverables</div>
+		<div class="chk"> <input type="checkbox" name="testing" value="tstqual">Testing/Quality</div>
+		<div class="chk"> <input type="checkbox" name="resources" value="resources">Resources</div>
+	</div>
 </body>
