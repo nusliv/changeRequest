@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		
+		function ParamValidate(){
+			var x = document.getElementById('First_name').id
+    if (x == " ") {
+        alert("Name must be filled out");
+        return false;
+    }
+			
+
+		}
+
+	</script>
+</head>
+<body>
+	<form>
+		<label>FirstName</label>
+		<input id= First_name type="textbox" name="fName" value=" "/>
+		<label>LastName</label>
+		<input type="textbox" name="lName" value=" "/>
+		<input id="clickMe" type="button" value="Submit" onclick="ParamValidate();" />
+	</form>
+
+</body>
+</html>
+
